@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero {
+  background-color: #3CF2D3;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.hero .card-img {
+  width: 120px;
+  margin: 20px 0;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.why {
+  background: white;
+  padding: 40px 20px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.feature {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.app {
+  background-color: #3CF2D3;
+  padding: 40px 20px;
+}
+
+.app-img {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.store-buttons img {
+  width: 120px;
+  margin: 10px;
+}
+
+footer {
+  background: #F4F4F4;
+  padding: 30px 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+}
